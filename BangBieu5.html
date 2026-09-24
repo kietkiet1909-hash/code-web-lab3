@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BangBieu5</title>
+  <style>
+    table {
+      border: 8px solid #000000;
+      border-collapse: separate;
+      border-spacing: 3px;
+      width: 400px;
+      height: 600px;
+      table-layout: fixed;
+      background-color: blue;
+    }
+
+    col:nth-child(1) {
+      width: 100px;
+    }
+
+    col:nth-child(2) {
+      width: 120px;
+    }
+
+    col:nth-child(3) {
+      width: 180px;
+    }
+
+    th, td {
+      border: 8px solid #000000;
+      padding: 15px;
+      text-align: center;
+    }
+
+    tbody tr:nth-child(1) {
+      height: 200px;
+    }
+
+    tbody tr:nth-child(2) {
+      height: 400px;
+    }
+
+    td:nth-child(3) {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bảng mẫu</h1>
+  <table>
+    <colgroup>
+      <col>
+      <col>
+      <col>
+    </colgroup>
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Tên</th>
+        <th>Điểm</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Nguyễn Văn A</td>
+        <td>9.0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Trần Thị B</td>
+        <td>8.5</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Phạm C</td>
+        <td>7.5</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
